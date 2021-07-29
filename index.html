@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+	<title>Spider: The Web Crawler</title>
+	<link href="img/favicon.png" rel="icon">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link href="style.css" rel="stylesheet">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Spider: The Web Crawler. Spider is an online front end developing event conducted by ISTE BITS aimed at promoting practical knowledge. Particate in this event to showcase your skills and win prizes.">
+	<meta name="keywords" content="HTML, CSS, JavaScript,Bootstrap, Jquery Online Event, Spider, Web Crawler">
+	<meta name="author" content="ISTE BITS">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content='26 body signs for nutrients defeciency with home remedies. Find out your body lacks in which vital nutients and their treatment.' name='description'/>
+	<meta content='https://spider.istebits.com/' property='og:url'/>
+	<meta content='Spider: The Web Crawler' property='og:title'/>
+	<meta content='Spider is an online front end developing event conducted by ISTE BITS aimed at promoting practical knowledge. Particate in this event to showcase your skills and win prizes.' property='og:description'/>
+	<meta content='EN' name='language'/>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid navigationlogo">
+		<a class="navbar-brand logonishsize" href="#"> <img src="img/logo.png" class=""> </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarResponsive">
+			
+			<span class="navbar-toggler-icon"></span>
+		
+      	</button>
+
+
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<form class="form-inline">
+						<a href="index.html" class="nav-link-simply">
+							<button class="btn btn-success" type="button">Spider</button>
+						</a>
+  					</form>
+				</li>
+				<li class="nav-item">
+					<form class="form-inline">
+						<a href="rulebook.html" class="nav-link-simply">
+							<button class="btn btn-outline-success" type="button">Rulebook</button>
+						</a>
+  					</form>
+				</li>
+				<li class="nav-item">
+					<form class="form-inline">
+						<a href="registration.html" class="nav-link-simply">
+							<button class="btn btn-outline-success" type="button">Registration</button>
+						</a>
+  					</form>
+				</li>
+			</ul>	
+				
+	</div>
+</nav>
+
+<!--- Image Slider -->
+
+
+<div id="slides" class="carousel slide padding-top-index" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 rounded mx-auto" src="img/spiderPoster.jpg" alt="First slide">
+      <div class="carousel-caption">
+				<h1 class="display-2">Spider</h1>
+				<h3>The Web Crawler</h3>
+				<a href="https://forms.gle/msX6W1QUyK3k6sP38"><button type="button" class="btn btn-success btn-lg">Register Yourself</button></a>
+				<a href="#"><button type="button" class="btn btn-outline-light btn-lg">Spider-ISTE_BITS</button></a>
+	  </div>
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100 rounded mx-auto" src="img/eventPoster.jpg" alt="Second slide">
+     </div>
+
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br><br>
+
+<!-- INTRO -->
+<!--- Jumbotron -->
+<br><br>
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p> <h1>Spider: The Web Crawler</h1></p>
+
+			<p class="lead"> ISTE is back with another event, SPIDER. It is a front end web developing competition for all the learners out there who have dreamt of building a website of their own. It will be conducted in 3 stages. This event SPIDER is designed to boost your learning of ‘basic web development' through a more practical approach, something which our current education system lacks.  </p>
+
+			<p class="lead">Participate for a better learning experience. Participate to showcase your skills. </p>
+			<ul>
+				<li class="lea"><b>Spider</b> is a Front End Development Event</li><br>
+				<li class="lea">It is  a National level event</li><br>
+				<li class="lea">First of it's kind in BIT Sindri</li><br>
+				<li class="lea">Promoting practical knowledge</li><br>
+				<li class="lea">If you are a new web developer, launch your first website through this event for free.</li><br>
+				<li class="lea">Participate and win exciting prizes worth <span style="color: red;"><b> 50 K.</b></span></li><br>
+				<li class="lea">Learn and Earn at the same time</li><br>
+				<li class="lea">No expensive domain/hosting needed for participating in this event.</li><br>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 text-center">
+			<img src="img/spider.png" class="img-fluid">
+		</div>
+	</div>
+</div>
+<!-- <hr class="my-4"> -->
+
+
+
+
+<!-- REGISTRATION -->
+<!--- Jumbotron -->
+<br><br>
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead"> <h1>Registration</h1> </p>
+			<p class="lead"> Register yourself by clicking the button. You can only register during xth August to yth September. Late Submissions will not be entertained.</p>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="https://forms.gle/6Yj4TGdJTuJhBd2Y6" target="_blank"><button type="bytton" class="bt btn-danger btn-lg">Register Yourself</button></a>
+		</div>
+	</div>
+</div>
+
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+
+
+
+<!-- navigation -->
+
+
+<br><br>
+<div class="container-fluid">
+	<div class="row ">
+		<div class="col-12">
+
+			<!-- How To Participate -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#participate">How To Participate</button>
+				<div id="participate" class="collapse padding show">
+					<h5 class="highlight">How To Participate</h5>
+					<div class="img-background">
+						<img src="img/how to participate.jpg" alt="How-To-Participate" title="How To Participate" class="img-fluid rounded mx-auto d-block">
+
+					</div>
+					
+					<ol>
+						<li><p class="highlightExample">Team Formation</p></li>
+							<ul>
+								<li>Form a team (solo or duo). An ideal combination for this can be the duo of a coder and a writer. </li>
+							</ul>
+						<li><p class="highlightExample">Idea Submission</p></li>
+							<ul>
+								<li>Choose one theme.</li>
+								<li>Register yourself <a href="https://forms.gle/6Yj4TGdJTuJhBd2Y6" target="_blank">by clicking here.</a></li>
+								<li>Submit your code in zip format by mailing us at istebitsbh01@gmail.com or spider@istebits.com . </li>
+								<li style="color:steelblue ">Upload your code on free services like AWS and Google Firebase.
+								<ul>
+									<!-- <li>Refer tutorial for more information.</li> -->
+									<li>Aid will be provided throughout the event by our technical team.</li>
+								</ul>
+								<p> <b>Note:Do not buy expensive domain and hosting for this event.</b></p> 
+							</li>
+							</ul>
+						<li><p class="highlightExample">Final Submission</p></li>	
+							<ul>
+								<li>Upgrade your code if selected in top 20.</li><br>
+							</ul>	
+						<li class="highlightExample">Final Results.</li>
+							<p>Final results will be posted within a week after the completion of event on our socialmedia handles. Follow our pages to stay updated. </p>
+							<mark>You can find links to our social media handles below.</mark>
+										
+					</ol>
+					<br>
+					<hr class="my-4">
+				</div>
+			<!-- Themes and Problem Statement -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#themesProblemStatement">Themes and Problem Statement</button>
+				<div id="themesProblemStatement" class="collapse padding">
+					
+					<h3 class="highlight"><b>The Themes</b></h3>
+					Choose one of the following themes and create your website.<br><br>
+
+					<ol>
+						<li><p class="highlightExample" ><b>Bussiness Landing Site</b></p></li>
+							<p>Create a landing site for small bussiness like restraunts, medicine stores, furniture shop. Show the products or services offered by these bussiness to attract more and more customers.</p>
+							<p><b>An Example:</b> A landing site for medicine store which showcase dicounts given by them. It can also include a page which generates bill if some medicines are collected.</p>
+
+						<li><p class="highlightExample"><b>An Informative Site</b> </p> </li>
+							<p>With the given problem statement or any topic of your choice create a informative website which analyses the problem, disuss the problem, reach on a conclusion and provide a solution. </p>
+							<ul type="bullets">
+								<li><b>1. Pandemic</b><br><p>Large volume of data is available on measures adopted by different countries / Indian states in controlling corona virus. ormulate the reason behind one's success or failure in controlling the pandemic of corona virus.</p></li>
+
+								<li><b>2. Change in Education Policy</b><br> <p> Recent days has witnessed a great revolution in the education system with changes in the pattern and hierarchy of the tutelage.Discuss the entire changes in the face of education and compare it with the traditional methods bringing out the pros and cons of both in contributing to the future of country.</p> </li>
+
+
+								<li><b>3. Indian Population as a Resource</b><br> <p> The deadly havoc that was birthed in China caged the whole world and since then a lot of countries are trying to segregate China. In that reference, India being the second most populous country, how can it use its population as a resource?.</p> </li>
+
+								<li><b>4. Technology in a Retrospective </b><br> <p> As the world has drastically changed from one to one interactions to virtual meetings. Use of technology has became a pinnacle point during this tough time. Reasearch and list down some of the great evolutions of technology that uncouples the past from present..</p> </li>
+
+								<li><b>5. Media : The 4th Pillar of Politics</b><br> <p> The freedom of press and media in democratic India has long been debateful. The facets of this freedom are as dynamic as it could be in a nation like India. From broadcasting sensitive information about defenses to telecasting every detail of necessary/unnecessary information, how do you think the freedom of Press in India be exercised?</p> </li>
+
+							</ul>
+
+						<li><p class="highlightExample"><b>A portfolio Site</b></p></li>
+							<p>Create a portfolio site where you can showcase your work in your respective fields of interest. Add what skills are known to you. The ultimate purpose of your portfolio website is to provide a way for you to land more potential clients by impressing them with your company's/your work . </p>
+
+						<li><p class="highlightExample"><b>Anything Under The Sun</b></p></li>
+							<p>Showcase your skill and impress the judges with your innovative ideas and coding skills.</p>
+					</ol>
+				<hr class="my-4">
+
+				</div>
+
+			<!-- Hosting It Online -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#hosting">Hosting it Online</button>
+			<div id="hosting" class="collapse padding">
+				<h5 class="highlight">using AWS free tier</h5>
+				<ul>
+					<li>You need to have your own AWS account.</li>
+					<li>Check out the <a href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc" target="_blank">free tier</a> of AWS. New users of AWS get a free 1 year trial of their free services.</li>
+					<li>Use storage service of AWS (Amazon S3) for hosting your website. Refer <a href="#">this link</a>, if you face any difficulty while hosting.</li>
+					<li>Feel free to contact for any queries.</li>
+				</ul>
+				Note: Please do not turn on paid services of AWS, as neither AWS nor ISTE is liable to pay you back for any expenses.<br> <br>
+
+				<h5 class="highlight">using Google Firebase</h5>
+				<ul>
+					<li>You must use your own google account.</li>
+					<li>Check out <a href="#">this link</a> if you want to know how to host your website using firebase.</li>
+				</ul>
+
+				Send your hosted code to us in compressed zip file to <mark>istebitsbh01@gmail.com or spider@istebits.com</mark>and wait for furthur instructions. <br>
+			<hr class="my-4">
+
+			</div>
+
+			<!-- Rulebook -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#rulebook">Rulebook</button>
+			<div id="rulebook" class="collapse padding">
+				<h5 class="highlight"><b>Rulebook</b></h5>
+				<ol>
+					<li>You can participate solo or in a duo.</li>
+					<li>Spider is open for students of all branches and all years. Even student from non-engineering background can participate.</li>
+					<li>Participants can team up with different branches. Example: Participant of Production & IT branch can form a team.</li>
+					<li>Each participant / team must provide a name through which they will be referred or contacted in future. In case you fail to provide a team name, you will be assigned one and will be send to you through your registered mail id.</li>
+					<li>This event is about front development so your code must be strictly in HTML, CSS & JAVASCRIPT. Use of libraries like Bootstrap and jQuery are allowed. </li>
+					<li>Your work must be 100% genuine. Plagiarism is not allowed. Doing so will lead to disqualification.</li>
+					<li>Use of SASS and Material UI is prohibited.</li>
+					<li>There are 3 steps for completing the event
+							<p>Step 1: Team Formation</p>
+							<p>Step 2: Registration / Idea Submission</p>
+							<p>Step 3: Upgrade</p>
+					</li>
+					<li>Duration of the event will be 22 (15+7) days. </li>
+					<li style="color: steelblue">Event will start from 3rd September 2020.</li>
+					<li>Participants can register till 17th September 11:59 pm.</li>
+					<li>Your code & content will be judged when you send your code to us in a compressed file.</li>
+					<li>You must follow our Facebook and Instagram pages.</li>
+					<!-- <li>You must follow * sponsors handle * to avail the winning prizes.</li> -->
+				</ol>
+
+				
+						<p class="highlightExample"> Step 1: Team Formation</p></li>
+							<ol type="i">
+								<li>Form a team (solo or duo). An ideal combination for this can be the duo of a coder and a writer. </li>
+							</ol>
+						<p class="highlightExample"> Step 2: Idea Submission</p></li>
+							<ol type="i">
+								<li>Choose one theme from <span style="color: steelblue" >'Themes and Problem Statement'</span>.</li>
+								<li>Register yourself <a href="https://forms.gle/6Yj4TGdJTuJhBd2Y6" target="_blank">by clicking here</a>. </li>
+								<li>Create your website with all necessary components deemed by you.</li>
+								<li>One link should be embedded which when clicked upon should take to ISTEBITS.COM</li>
+								<li>Host your website in AWS or Firebase or any platform of your choice.</li>
+								<li style="color:steelblue ">Upload your code on free services like AWS and Google Firebase.
+										<ul>
+											<li>Refer tutorial for more information.</li>
+											<li>Aid will be provides throughout the event by our technical team.</li>
+										</ul>
+										<p> <b>Note:Do not buy expensive domain and hosting for this event.</b></p> 
+								</li>
+
+								<li>Submit your code in zip format and link to your hosted website by mailing us at <mark>istebitsbh01@gmail.com or spider@istebits.com.</mark> </li>
+								
+								<li>Register and submit your  before 17th September 11:59 pm, 2020. </li>
+							</ol>
+						<p class="highlightExample">Step 3: Final Submission</p></li>	
+							<ol type="i">
+								<li>Upgrade your code if selected in top 20.</li><br>
+								<li>Upgradation period will last from 18th to 24th September, 2020. </li>
+							</ol>	
+						<p class="highlightExample"> Results</p>
+							<p>Final results will be posted within a week after the completion of event on our socialmedia handles. Follow our pages to stay updated. </p>
+							<mark>You can find links to our social media handles below.</mark>
+
+				</ol>
+				<br>
+			<hr class="my-4">
+
+			</div>
+
+			<!-- Judging Criteria -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#judge">Judging Critera</button>
+			<div id="judge" class="collapse padding">
+				<h5 class="highlightExample">Judging Criteria</h5>
+				<ol>
+					<li>Whether your website is completely front end or not!</li>
+					<li>Originality of your code and content.</li>
+					<li>Appearance - Does your website excite viewers?</li>
+					<li>Creativity</li>
+					<li>Interlinking within same page.</li>
+					<li>Error free link / site- Whether relevant links open in another window or not.</li>
+					<li>Use of optimized images.</li>
+					<li>Mention of ISTEBITS / SPONSERS page in your code.</li>
+					<li>Onsite SEO of your code and articles.</li>
+					<li>How dry your code is!</li>
+					<li>Functionality of web app (if any).</li>
+				</ol>
+				<b>Note: Spider is a learning event so be enthusiastic and innovative. At the end we have something for everyone. Yes everyone.</b>
+				<hr class="my-4">
+			</div>
+
+			<!-- FAQ's -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#faq">FAQ's</button>
+			<div id="faq" class="collapse padding">
+				<h5 class="highlight">FAQ's</h5>
+
+				<button class="fun-faq" data-toggle="collapse" data-target="#q1"> 1. What is the duration of event?</button>
+				<div id="q1" class="collapse">
+					<div class="col-sm-12 col-md-12 text-center">
+						The event, Spider will last for 22 days(15 + 7).First 15 days to register yourself and send your code and a link of your hosted site. Next 7 days is an upgradation period for top 20. 
+						<br><br><mark> <b>Note: Register yourself as soon as possible so that we can help you with any query you face while this event.</b></mark>
+					</div>
+			 	</div>
+
+			 	<button class="fun-faq" data-toggle="collapse" data-target="#q2"> 2. Is it open to all?</button>
+				<div id="q2" class="collapse">
+					<div class="col-sm-12 col-md-12 text-center">
+						Yes, It is open for all. For detailed information read our rulebook.
+					</div>
+			 	</div>
+			 	<button class="fun-faq" data-toggle="collapse" data-target="#q3"> 3. Till when can I register?</button>
+				<div id="q3" class="collapse">
+					<div class="col-sm-12 col-md-12 text-center">
+						The registration are open till 17th September 2020, 11:59 PM IST. All you have to do is  <a href="https://forms.gle/6Yj4TGdJTuJhBd2Y6" target="_blank"><mark>click here</mark></a>to register. No registration will be allowed after that.
+						Choose one theme and register ASAP.
+					</div>					
+			 	</div>
+
+			 	<button class="fun-faq" data-toggle="collapse" data-target="#q4"> 4. Whom should I contact if I have any queries?</button>
+				<div id="q4" class="collapse">
+					<div class="col-sm-12 col-md-12 text-center">
+						<mark> Submit your query at spider@istebits.com or you can contact our support team listed below. Explain your problem in detail. You can also aid your query with images. We are more than happy to help you.</mark>
+					</div>
+			 	</div>
+
+			 	<button class="fun-faq" data-toggle="collapse" data-target="#q5"> 5. Do I have to pay anything for participating in this event?</button>
+				<div id="q5" class="collapse">
+					<div class="col-sm-12 col-md-12 text-center">
+						<mark>No, it’s free of charge. There are no hidden charges.</mark>
+					</div>
+			 	</div>
+
+			 	<button class="fun-faq" data-toggle="collapse" data-target="#q6"> 6. Why should I register ASAP?</button>
+				<div id="q6" class="collapse">
+					<div class="col-sm-12 col-md-12 text-center">
+						<mark>Registration will be considered as an acknowledgement that you want to participate in this event. It will help you in establishing a direct connection with us. So choose on of the themes and register ASAP.</mark>
+					</div>
+			 	</div>
+				<hr class="my-4">
+			</div>
+
+			<!-- Webinar -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#webinar">Webinar</button>
+			<div id="webinar" class="collapse padding">
+				<h5 class="highlight"><b>Webinar</b></h5>
+				<p>Before the start of the event you get a webinar with top professionals in this field.</p>
+					<ul>
+						<li>Date: 2nd September, 2020 </li>
+						<li>Time: 5pm onwards </li>
+						<li>Speaker: Mr. Suman Debnath</li>
+						<li>Topic: Deploying Machine Learning Models on AWS </li>
+					</ul>
+					<h4>Webinar Link: <span style="color: steelblue;"> <b> <a href="https://www.youtube.com/watch?v=Iwb2xnASz-4" target="_blank">Watch It Here</a> </b></span></h4>
+
+					<p class="highlightExample"><b>About the Webinar</b></p>
+					<p>Machine Learning is surely a game changer in various domains, as it has the potential to unearth many patterns and insights. And to give a kick-start to your Machine learning, ISTE BITS in collaboration with AWS brings to you a free Webinar with Indian Developer Advocate at AWS, "Mr. Suman Debnath".</p><br>
+
+					<p class="highlightExample"><b>About the Speaker</b></p>
+					<p>Mr. Suman Debnath is a Principal Developer Advocate at 'Amazon Web Services', based in India who is passionate for Big Data, Machine Learning and Deep Learning. With hands-on experience through organisations like IBM Software Lab, EMC, NetApp and Toshiba, he has the expertise in his domain.</p>
+					<br>
+				<hr class="my-4">
+			</div>
+
+			<!-- Prizes -->
+			<button  type="button" class="fun btn btn-success btn-lg" data-toggle="collapse" data-target="#prizes">Prizes</button>
+			<div id="prizes" class="collapse padding">
+				<h5 class="highlight"><b>Prizes</b></h5>
+				<p>We saved the best for the last. Winners will be rewarded with amazing cool prizes <span style="color: red">worth 50K</span>. Not only that we have something for everyone in our bag. Also, all students will get <span style="color: red">'Participation Certificate'</span> and winners will get <span style="color: red">'Certificate of Achievement'</span>.</p>
+
+				<p class="highlightExample circular"><b>Do not miss the thrilling opportunity to learn and prove yourself.</b></p><br>
+				
+			</div>
+	
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+
+
+
+<!-- Our Team -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="row text-center padding col-12">
+			<h1>Our Team</h1>
+		</div>
+		<div class="col-12">	
+			<br>
+			<p></p>
+			<br> 
+			
+			<img src="img/ourTeam.jpg" class="img-fluid rounded mx-auto d-block">
+		</div>
+	</div>
+</div>
+<hr class="my-4">  
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/istebits"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/istebits/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/iste-students-chapter-bit-sindri-8973691a1/"><i class="fab fa-linkedin"></i></a>
+			<a href="https://www.youtube.com/channel/UCmSvlCkRyNjwAQQsdnpu61A"><i class="fab fa-youtube"></i></a>			
+		</div>
+	</div>
+</div>
+
+
+<!-- fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<a href="https://istebits.com"><img src="img/isteLogo.png"></a>
+				<hr class="light">
+				<a href="https://istebits.com/"><p class="texthover">ISTE BITS</p></a>
+				<p class="texthover">istebitsbh01@gmail.com</p>
+			</div> 
+
+			<div class="col-md-4">
+				<br><br>
+				<hr class="light">
+				Event
+				<hr class="light">
+				<p class="texthover"><a href="#">Spider</a></p>
+				<p class="texthover">Spider-ISTE_BITS</p>
+				<p class="texthover"></p>
+				<p class="texthover"></p>
+			</div>
+			<div class="col-md-4">
+				<br><br>
+				<hr class="light">
+				For Queries Contact:
+				<hr class="light">
+				<p class="texthover">Nishant Gautam :+91 9939130620</p>
+				<p class="texthover">Vishal Kumar : +91 6205931328 </p>
+				<p class="texthover"> Ayush Kumar: +91 9155185575</p>
+				<p></p>
+				
+			</div>
+		<div class="col-12">
+			<hr class="light-100">
+			<h5> &copy; ISTE BITS</h5>
+			created by - ISTE BITS Team | with <3
+		</div>	
+		</div>
+	</div>
+</footer>
+
+ <!-- ====== Back To Top ========= -->
+
+
+  <a href="#" id="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+  <!-- JS File -->
+  <script src="assets/main.js"></script>
+
+</body>
+</html>
